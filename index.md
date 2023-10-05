@@ -1,2 +1,2 @@
 ## Week 1
-* [Report_1](https://github.com/chaowen123/cse15L-lab-report-FA23/tree/main/ces15l_week1_report)
+* [Report_1](https://chaowen123.github.io/cse15L-lab-report-FA23/ces15l_week1_report/report1-0.html)
