@@ -12,7 +12,7 @@
    convenient way to return to my starting point within the file system.
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error
+*Indicate whether the output is an error or not
    This is not an error
 ```
 ## CD command with a path to a directory as an argument
@@ -24,18 +24,19 @@
 ```
 *A sentence or two explaining why you got that output 
    CD command successfully changed your working directory to the /home/lecture/messages
-   directory,because the output is indicated by the filesystem and the specific path as an argument
+   directory,because the output is indicated by the filesystem and the specific path as
+   an argument
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
+*Indicate whether the output is an error or not
    This is not an error
 ```
 ## CD command with a path to a file as an argument
 ![Image](cse15l_week1_report/cd_with_file.png)
 ```
 * What the working directory was when the command was run:
-      is the root directory when I run with the path of the files. but then I change to the /home/lecture1/messages
-      and use cat command to run the .txt file.
+   is the root directory when I run with the path of the files. but then I change
+   to the /home/lecture1/messages and use cat command to run the .txt file.
 ```
 ```
 *A sentence or two explaining why you got that output 
@@ -43,7 +44,7 @@
    my current working directory to a directory,not a file.
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
+*Indicate whether the output is an error or not
    This is an error because is designed to change my current working directory to a
    directory,but not for change the files.
 ```
@@ -61,7 +62,7 @@
    This is the default behavior of the ls command.
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error
+*Indicate whether the output is an error or not
    this is not an error.
 ```
 ## LS command with a path to a directory as an argument.
@@ -76,7 +77,7 @@
    subdirectories within this directory. 
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
+*Indicate whether the output is an error or not
    this is not an error.
 ```
 ## LS command with a path to a file as an argument.
@@ -87,12 +88,13 @@
 ```
 ```
 *A sentence or two explaining why you got that output 
-   ls command is to list the contents of directories, not individual files, is treated as a
-   directories, and attempting  to use it as an argument
+   ls command is to list the contents of directories, not individual files, is
+   treated as a directories, and attempting  to use it as an argument
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
-   this is an error because is to list the contents of directories, not individual files.
+*Indicate whether the output is an error or not
+   this is an error because is to list the contents of directories,
+   not individual files.
 ```
 ---
 ---
@@ -108,7 +110,7 @@
    the system won't sotp until I giving the input. or we can just ctrl+C to stop running.
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
+*Indicate whether the output is an error or not
    this is not an error.
 ```
 
@@ -124,9 +126,10 @@
    I have this out put
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
-   this is an error because /home/lecture1/messages that indicate the messages is an directory not
-   an file, and cat command is to display the contents of the text files.
+*Indicate whether the output is an error or not
+   this is an error because /home/lecture1/messages that indicate the
+   messages is an directory not an file, and cat command is to display
+   the contents of the text files.
 ```
 ## CAT command with a path to a files as an argument.
 ![Image](cse15l_week1_report/cat_with_files.png)
@@ -141,7 +144,7 @@
    text of this file which "Hello Wrold!"
 ```
 ```
-*Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error:
+*Indicate whether the output is an error or not
    this is not an error.
 ```
 ---
