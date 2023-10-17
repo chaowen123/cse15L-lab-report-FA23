@@ -4,7 +4,7 @@
 ---
 ```
 * What the working directory was when the command was run:
-   The working directory was at the root directoy that with no argyments 
+   /home
 ```
 ```
 *A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments):
@@ -19,7 +19,7 @@
 ![Image](cse15l_week1_report/cd_with_dir.png)
 ```
 * What the working directory was when the command was run:
-      /home/lecture1/messages
+      /home
 ```
 ```
 *A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments):
