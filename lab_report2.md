@@ -1,7 +1,12 @@
 ## Lab Report2 
 ---
+
+
 ## Part 1
-* Show the code for my StringServer.java 
+* Show the code for my StringServer.java
+
+
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -52,6 +57,9 @@ class StringServer {
     }
 }
 ```
+
+
+
 * /add-messages?=hello
 ![image](cse15l_week1_report/hello.png)
 ```
@@ -70,6 +78,9 @@ got changed, explain why.
     -if I opne the page, the page is empty,untill I using/add-messages?s=hello, then the string list will
     sotre this query as string and disply to the page,and the num will store the number of how many query that we add
 ```
+
+
+
 * /add-messages?=how are you
 ![image](cse15l_week1_report/how_are_you.png)
 ```
@@ -85,6 +96,11 @@ got changed, explain why.
     because the space between how are you will let the method getQuery（）think they are separated by the delimiter
     such the space in between.
 ```
+
+
+
+
+
 ## Part 2
 1.The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the 
 lab computer)
@@ -97,6 +113,11 @@ lab computer)
 3.A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
 ![image](cse15l_week1_report/3_1.png)
 ![image](cse15l_week1_report/3_2.png)
+
+
+
+
+
 
 ## Part 3
 ```
