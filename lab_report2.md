@@ -1,22 +1,15 @@
 ## Lab Report2 
 ---
 
-
-
-
-
-
-
 ## Part 1
 * Show the code for my StringServer.java
+---
 ---
 ```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
-
-
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
@@ -46,22 +39,18 @@ class Handler implements URLHandler {
         }
     }
 }
-
 class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
             return;
         }
-
         int port = Integer.parseInt(args[0]);
-
         Server.start(port, new Handler());
     }
 }
 ```
-
-
+---
 ---
 * /add-messages?=hello
 ![image](cse15l_week1_report/hello.png)
