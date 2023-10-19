@@ -2,11 +2,14 @@
 ---
 
 
+
+
+
+
+
 ## Part 1
 * Show the code for my StringServer.java
-
-
-
+---
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -59,7 +62,7 @@ class StringServer {
 ```
 
 
-
+---
 * /add-messages?=hello
 ![image](cse15l_week1_report/hello.png)
 ```
@@ -80,7 +83,7 @@ got changed, explain why.
 ```
 
 
-
+---
 * /add-messages?=how are you
 ![image](cse15l_week1_report/how_are_you.png)
 ```
