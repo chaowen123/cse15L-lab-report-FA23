@@ -150,4 +150,4 @@
 ---
 ---
 
-[lab 1 report](https://github.com/chaowen123/cse15L-lab-report-FA23/lab1_reoprt.html)
+[lab 1 report](cse15L-lab-report-FA23/lab1_reoprt.html)
