@@ -55,7 +55,7 @@ class StringServer {
 * /add-messages?=hello
 ![image](cse15l_week1_report/hello.png)
 
-```
+
 1.Which methods in your code are called?
 - StringServer.main(String[] args):This is the starting point when running Java programs.
 It checks if the port number is provided as a parameter. If so, it will start the server
@@ -70,26 +70,24 @@ main method.
 
 3.How do the values of any relevant fields of the class change from this specific request? If no value
 got changed, explain why.
-    *Field: num.
-    -Change: No change.
-    -Reason: The num field is not referenced or modified anywhere in the provided code for the specified
-        request.It remains initialized at 0.
-    *Field: strings.
-    -Initial Value: An empty list []
-    -Change: After processing the request /add-message?s=Hello, the strings list will have one string
-        element.
-    -Reason:The code checks if the URL path contains /add-message.It then processes the query string
-        to extractthe parameter associated with thekey s.The value of this parameter is checked against
-        the existing elements of the strings list to avoid duplicates.As the list is initially empty,
-        the string Hello is added to the list. 
-```
-```
+* Field: num.
+* Change: No change.
+* Reason: The num field is not referenced or modified anywhere in the provided code for the specified
+  request.It remains initialized at 0.
+* Field: strings.
+* Initial Value: An empty list []
+* Change: After processing the request /add-message?s=Hello, the strings list will have one string
+element.
+* Reason:The code checks if the URL path contains /add-message.It then processes the query string
+to extractthe parameter associated with thekey s.The value of this parameter is checked against
+the existing elements of the strings list to avoid duplicates.As the list is initially empty,
+the string Hello is added to the list. 
 
 
 ---
 * /add-messages?=how are you
 ![image](cse15l_week1_report/how_are_you.png)
-```
+
 1.Which methods in your code are called?
 - StringServer.main(String[] args):This is the starting point when running Java programs.
 It checks if the port number is provided as a parameter. If so, it will start the server
@@ -106,17 +104,16 @@ main method.
 
 3.How do the values of any relevant fields of the class change from this specific request?
 If no values got changed,explain why.
-    *field: num.
-    -Change: No change.
-    -Reason: The num field is not referenced or modified anywhere in the provided code for this request.
-    *Field:strings
-    -Change: After processing the request /add-message?s=how+are+you, the string "how are you" will be
-        added to the strings list..
-    -Reason:The code checks if the URL path contains /add-message.It then processes the query string
-        to extract the parameter associated with the key s.The value "how are you" is extracted from the
-        query string.The code checks if this string is already in the strings list to avoid duplicates. If
-        not already present, it gets added to the list.
-```
+* field: num.
+* Change: No change.
+* Reason: The num field is not referenced or modified anywhere in the provided code for this request.
+* Field:strings
+* Change: After processing the request /add-message?s=how+are+you, the string "how are you" will be
+added to the strings list..
+* Reason:The code checks if the URL path contains /add-message.It then processes the query string
+to extract the parameter associated with the key s.The value "how are you" is extracted from the
+query string.The code checks if this string is already in the strings list to avoid duplicates. If
+not already present, it gets added to the list
 
 
 
@@ -127,11 +124,12 @@ If no values got changed,explain why.
 or on the home directory of the lab computer)
 ![image](cse15l_week1_report/privte.png)
 ![image](cse15l_week1_report/pricate1.png)
-## the Image show that path to the private key: /c/Users/chaow/.ssh/id_rsa
+the Image show that path to the private key: **/c/Users/chaow/.ssh/id_rsa**
 
 2.The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
 ![image](cse15l_week1_report/pub.png)
-## the Image show that path to the public key:/home/linux/ieng6/cs15lfa23/cs15lfa23ri/.ssh/authorized_keys
+
+the Image show that path to the public key:**/home/linux/ieng6/cs15lfa23/cs15lfa23ri/.ssh/authorized_keys**
 
 3.A terminal interaction where you log into ieng6 with your course-specific account 
 without being asked for a password.
