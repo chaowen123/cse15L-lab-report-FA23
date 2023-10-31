@@ -54,6 +54,7 @@ class StringServer {
 ---
 * /add-messages?=hello
 ![image](cse15l_week1_report/hello.png)
+
 ```
 1.Which methods in your code are called?
 - StringServer.main(String[] args):This is the starting point when running Java programs.
@@ -81,6 +82,7 @@ got changed, explain why.
         to extractthe parameter associated with thekey s.The value of this parameter is checked against
         the existing elements of the strings list to avoid duplicates.As the list is initially empty,
         the string Hello is added to the list. 
+```
 ```
 
 
