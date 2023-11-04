@@ -101,12 +101,12 @@ public class testFilter {
 * An input that doesn’t induce a failure, as a JUnit test and any associated code
 
   **this is the code that does not include a failure I samply change them to compare itself**
+  
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.ArrayList;
 import java.util.List;
-
 public class testFilter {
     @Test
     public void test_filter() {
@@ -133,6 +133,7 @@ public class testFilter {
         assertEquals(result, result);
     }
 }
+
 ```
 
 
@@ -266,10 +267,10 @@ public class testFilter {
     beginning of the list(result. add(0, s)). This will reverse the order of elements from the input
     list into the output list.
   * Issue with merge method: The merge method contains a bug in the second while loop that handles the
-    remainder of list2. because should increment the index2 not index1.
- ---
+    remaindr of list2. because should increment the index2 not index1.
 
- 
+  
+ --- 
 **Part II**
 
 1.less -N (display line numbers) (from ChatGpt)
