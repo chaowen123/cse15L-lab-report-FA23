@@ -54,6 +54,9 @@ class ListExamples {
   }
 }
 ```
+
+
+
    **this is my test program for the listexamoles**
 
 ```
@@ -92,6 +95,9 @@ public class testFilter {
     }
 }
 ```
+
+
+
 * An input that doesn’t induce a failure, as a JUnit test and any associated code
 
   **this is the code that does not include a failure I samply change them to compare itself**
@@ -128,6 +134,9 @@ public class testFilter {
     }
 }
 ```
+
+
+
 **this is the output with no failure**
 ```
 $ java -cp ".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore testFilter
@@ -137,6 +146,7 @@ Time: 0.01
 
 OK (2 tests)
 ```
+
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
   **this is my output that include a failure**
@@ -148,7 +158,11 @@ OK (2 tests)
 
 * The bug, as the before-and-after code change required to fix it
 
+
+
+
   **this is before**
+  
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -200,6 +214,7 @@ class ListExamples {
 ```
 
 **this after**
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -253,6 +268,8 @@ public class testFilter {
   * Issue with merge method: The merge method contains a bug in the second while loop that handles the
     remainder of list2. because should increment the index2 not index1.
  ---
+
+ 
 **Part II**
 
 1.less -N (display line numbers) (from ChatGpt)
