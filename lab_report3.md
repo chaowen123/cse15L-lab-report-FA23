@@ -100,8 +100,7 @@ public class testFilter {
 
 * An input that doesn’t induce a failure, as a JUnit test and any associated code
 
-  **this is the code that does not include a failure I samply change them to compare itself**
-  
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
