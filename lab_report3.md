@@ -146,7 +146,36 @@ $ grep -i -B 2 "design" ./biomed/1468-6708-3-1.txt
           results from many studies. However, health measures
           designed specifically to measure those conditions might
 ```
+Source from ChatGpt
+
+---
+**Example 2**
+
+I use `grep --color=auto "design"` to highlight the search stream it is useful because when there 
+are a lot of match words, it will distance between the not search terms.
+![image](cse15l_week1_report/color1.png)
 
 
+I combined `grep -n --color=auto "design"` to Highlight matches with line numbers  it is useful 
+because when there are a lot of match words, it useful when we are searching through a file with 
+many lines of code or text, 
+![image](cse15l_week1_report/color2.png)
+[source](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 
+---
+**Example 3**
+
+I use the -c option to count how many match line, it usefule because quickly find out how many times a serach 
+case has been find.and determine the frequency of a specific case
+```
+chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
+$ grep -c "design" ./biomed/1468-6708-3-1.txt
+2
+```
+
+```
+chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
+$ grep -vc "design" ./biomed/1468-6708-3-1.txt
+430
+```
