@@ -166,16 +166,47 @@ many lines of code or text,
 ---
 **Example 3**
 
-I use the -c option to count how many match line, it usefule because quickly find out how many times a serach 
+I use `$ grep -c "design" `option to count how many match line, it usefule because quickly find out how many times a serach 
 case has been find.and determine the frequency of a specific case
 ```
 chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
 $ grep -c "design" ./biomed/1468-6708-3-1.txt
 2
 ```
-
+I combined `$ grep -vc "design" ` to count the number of lines that do not contain the word "design" in a .txt file.
+It usefule because it doing thr oppsive way of -c which show number line the not match case.
 ```
 chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
 $ grep -vc "design" ./biomed/1468-6708-3-1.txt
 430
 ```
+[source](https://man7.org/linux/man-pages/man1/grep.1.html)
+
+---
+**Example 4**
+
+I use `$ grep -l "1468" `it use to Scanning each input file stops upon first match, It usefule becasue 
+When we searching through a large number of files  only need to know which files contain the match, 
+not the actual matching lines themselves.
+```
+chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
+$ grep -l "1468" ./biomed/*.txt
+./biomed/1471-2156-2-17.txt
+./biomed/1471-2350-2-2.txt
+./biomed/bcr45.txt
+```
+
+I combinde `$ grep -l -e "1468" -e "1471" `to serach different serach case at the same time , it usefule because 
+if we looking for several files that contain one of several strings, we can use -e to specify each string and 
+-l to get just the file names.
+```
+chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
+$ grep -l -e "1468" -e "1471" ./biomed/*.txt
+./biomed/1471-2156-2-17.txt
+./biomed/1471-2202-2-8.txt
+./biomed/1471-2202-2-9.txt
+./biomed/1471-2350-2-2.txt
+./biomed/1471-2474-2-3.txt
+./biomed/bcr45.txt
+```
+[source](https://man7.org/linux/man-pages/man1/grep.1.html)
