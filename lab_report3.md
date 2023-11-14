@@ -211,4 +211,13 @@ $ grep -l -e "1468" -e "1471" ./biomed/*.txt
 ./biomed/1471-2474-2-3.txt
 ./biomed/bcr45.txt
 ```
+
+I use `$ grep -li "would yield more" biomed/*.txt` A case-insensitive search with the -l option. It makes the search more 
+user-friendly because I don't have to worry about matching the exact case of the text that I am looking for. 
+```
+chaow@LAPTOP-1JABRDJL MINGW64 ~/OneDrive/Documents/GitHub/week_5_lab/docsearch/technical (main)
+$ grep -li "would yield more" biomed/*.txt
+biomed/1468-6708-3-1.txt
+biomed/gb-2002-3-12-research0071.txt
+```
 [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
