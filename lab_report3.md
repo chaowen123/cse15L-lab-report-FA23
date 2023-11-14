@@ -147,7 +147,8 @@ $ grep -i -B 2 "design" ./biomed/1468-6708-3-1.txt
           results from many studies. However, health measures
           designed specifically to measure those conditions might
 ```
-Source from ChatGpt
+**Source from ChatGpt**
+![image](cse15l_week1_report/chatsource.png)
 
 ---
 **Example 2**
