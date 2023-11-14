@@ -116,7 +116,8 @@ class ListExamples {
 * Briefly describe why the fix addresses the issue.
   * .Issue with filter method: The filter method is currently adding the elements that pass the check at the
     beginning of the list(result. add(0, s)). This will reverse the order of elements from the input
-    list into the output list.
+    list into the output list. Then I changed `result. add(0, s)` to `result. add(s)` inorder to stop reverse the
+    order of elements from the input list into the output list
 
 ---
 ## Part II
@@ -160,7 +161,7 @@ I combined `grep -n --color=auto "design"` to Highlight matches with line number
 because when there are a lot of match words, it useful when we are searching through a file with 
 many lines of code or text, 
 ![image](cse15l_week1_report/color2.png)
-[source](https://man7.org/linux/man-pages/man1/grep.1.html)
+[https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 
 ---
@@ -180,7 +181,7 @@ chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
 $ grep -vc "design" ./biomed/1468-6708-3-1.txt
 430
 ```
-[source](https://man7.org/linux/man-pages/man1/grep.1.html)
+[https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 ---
 **Example 4**
@@ -209,4 +210,4 @@ $ grep -l -e "1468" -e "1471" ./biomed/*.txt
 ./biomed/1471-2474-2-3.txt
 ./biomed/bcr45.txt
 ```
-[source](https://man7.org/linux/man-pages/man1/grep.1.html)
+[https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
