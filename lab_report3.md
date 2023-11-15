@@ -162,6 +162,7 @@ I combined `grep -n --color=auto "design"` to Highlight matches with line number
 because when there are a lot of match words, it useful when we are searching through a file with 
 many lines of code or text, 
 ![image](cse15l_week1_report/color2.png)
+This is the source to get the command `grep --color=auto` and `grep -n --color=auto`
 [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 
@@ -182,6 +183,7 @@ chaow@cao MINGW64 ~/lab4/docsearch/technical (main)
 $ grep -vc "design" ./biomed/1468-6708-3-1.txt
 430
 ```
+This is the source to get the command `grep -c` and `grep -vc`
 [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 ---
@@ -197,6 +199,8 @@ $ grep -l "1468" ./biomed/*.txt
 ./biomed/1471-2350-2-2.txt
 ./biomed/bcr45.txt
 ```
+The example above are the files that contain the string "1468" inside the .txt files
+which are the `1471-2156-2-17.txt` and `1471-2350-2-2.txt` and `bcr45.txt`
 
 I combinde `$ grep -l -e "1468" -e "1471" `to serach different serach case at the same time , it usefule because 
 if we looking for several files that contain one of several strings, we can use -e to specify each string and 
@@ -211,6 +215,9 @@ $ grep -l -e "1468" -e "1471" ./biomed/*.txt
 ./biomed/1471-2474-2-3.txt
 ./biomed/bcr45.txt
 ```
+The example above are the files that contain the string "1468" or "1471" inside the .txt files
+which are base on my perivous example `1471-2202-2-8.txt` `1471-2202-2-9.txt` `1471-2202-2-3.txt`
+these are the files that contain the string "1471" not the files name itself
 
 I use `$ grep -li "would yield more" biomed/*.txt` A case-insensitive search with the -l option. It makes the search more 
 user-friendly because I don't have to worry about matching the exact case of the text that I am looking for. 
@@ -220,4 +227,5 @@ $ grep -li "would yield more" biomed/*.txt
 biomed/1468-6708-3-1.txt
 biomed/gb-2002-3-12-research0071.txt
 ```
+This is the source to get the command `grep -l` `grep -l -e`
 [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
