@@ -219,13 +219,6 @@ The example above are the files that contain the string "1468" or "1471" inside 
 which are base on my perivous example `1471-2202-2-8.txt` `1471-2202-2-9.txt` `1471-2202-2-3.txt`
 these are the files that contain the string "1471" not the files name itself
 
-I use `$ grep -li "would yield more" biomed/*.txt` A case-insensitive search with the -l option. It makes the search more 
-user-friendly because I don't have to worry about matching the exact case of the text that I am looking for. 
-```
-chaow@LAPTOP-1JABRDJL MINGW64 ~/OneDrive/Documents/GitHub/week_5_lab/docsearch/technical (main)
-$ grep -li "would yield more" biomed/*.txt
-biomed/1468-6708-3-1.txt
-biomed/gb-2002-3-12-research0071.txt
-```
+
 This is the source to get the command `grep -l` `grep -l -e`
 [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
