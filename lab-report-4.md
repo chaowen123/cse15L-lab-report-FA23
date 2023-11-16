@@ -1,12 +1,12 @@
 ## Lab Report 4
 
 * Log into ieng6
-![image](cse15l_week1_report/ssh.png)
+ ![image](cse15l_week1_report/ssh.png)
 
   I typ `ssh cs15lfa23ri@ieng6.ucsd.edu` `<enter>`
   in my local computer's command line inorder to accessing the ieng6 machanin
 
-![image](cse15l_week1_report/indicate.png)
+ ![image](cse15l_week1_report/indicate.png)
 Above showed that I have successfully login my ieng6 machanin
 
 ---
@@ -18,6 +18,39 @@ Above showed that I have successfully login my ieng6 machanin
   ![image](cse15l_week1_report/ls_make_sure.png)
 
  Then I use `cd` to change my working directory to cse15L-lab-7
- Then I type `git clone 
+ Then I type `git clone` after finish downloading, then 
+ I typ `ls` to make sure that I am in the correct working directory
+  ![image](cse15l_week1_report/gitclone.png)
+  ![image](cse15l_week1_report/gitclonesucc.png)
 
- 
+---
+* Run the tests, demonstrating that they fail
+  I type `bash test.sh` to run the test 
+  ![image](cse15l_week1_report/bashtest.png)
+
+---
+* Edit the code file to fix the failing test
+  I type `vim ListExamples.java` to access the vim mode 
+  then I type `?index1` to locate the code where I want to fix
+  then I press `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>`
+  type `s/index1/index2` to fix the code.Then I type `:wq`to save my change.
+   ![image](cse15l_week1_report/vimmode.png)
+   ![image](cse15l_week1_report/indexsearch.png)
+   ![image](cse15l_week1_report/sindesx.png)
+
+  ---
+* Run the tests, demonstrating that they now succeed
+    I type `bash test.sh` again to run the ListExample to
+       ![image](cse15l_week1_report/testsucces.png)
+
+  ---
+* Commit and push the resulting change to your Github account (you can pick any commit message!)
+    Then I type`git status` to check what files that I have made the change
+    ![image](cse15l_week1_report/gitstatus.png)
+    Then I type `git add ListExamples.java` to add the files to
+    ![image](cse15l_week1_report/gitadd.png)
+    Then I type `git commit -m "change index1 to index2"` to make the commit
+    ![image](cse15l_week1_report/gitcommit.png)
+    Then I type `git push origin main` to make the change on my github account
+    ![image](cse15l_week1_report/gitpush.png)
+  
