@@ -9,6 +9,8 @@
  ![image](cse15l_week1_report/indicate.png)
 Above showed that I have successfully login my ieng6 machanin
 
+Effect: This allowed the user to remotely log into the ieng6 machine at UCSD.
+
 ---
 
 * Clone your fork of the repository from your Github account (using the SSH URL)
@@ -22,11 +24,15 @@ Above showed that I have successfully login my ieng6 machanin
  I typ `ls` to make sure that I am in the correct working directory
   ![image](cse15l_week1_report/gitclone.png)
   ![image](cse15l_week1_report/gitclonesucc.png)
+  Effect: This changed the working directory to cse15L-lab-7 and  cloned the specified repository 
+  into the current directory.
 
 ---
 * Run the tests, demonstrating that they fail
   I type `bash test.sh` to run the test 
   ![image](cse15l_week1_report/bashtest.png)
+
+  Effect: Executed the test script to run tests, which initially failed.
 
 ---
 * Edit the code file to fix the failing test
@@ -38,10 +44,15 @@ Above showed that I have successfully login my ieng6 machanin
    ![image](cse15l_week1_report/indexsearch.png)
    ![image](cse15l_week1_report/sindesx.png)
 
+   Effect: Opened the file ListExamples.java in vim editor, navigated to a specific code section, replaced
+  index1 with index2, and saved the changes to fix the failing test.
+
   ---
 * Run the tests, demonstrating that they now succeed
     I type `bash test.sh` again to run the ListExample to
        ![image](cse15l_week1_report/testsucces.png)
+
+  Effect: Ran the test script again, this time the tests succeeded due to the code fix.
 
   ---
 * Commit and push the resulting change to your Github account (you can pick any commit message!)
@@ -53,4 +64,13 @@ Above showed that I have successfully login my ieng6 machanin
     ![image](cse15l_week1_report/gitcommit.png)
     Then I type `git push origin main` to make the change on my github account
     ![image](cse15l_week1_report/gitpush.png)
+
+  Effect: These commands collectively added the changed file to the git staging area, committed the
+  change with a descriptive message, and then pushed the commit to the main branch of the user's
+  GitHub repository.
+
+  ---
+  **summarily**
   
+  These steps demonstrate a typical workflow in software development, including accessing remote machines,
+  navigating and modifying the file system, version control operations, code editing, and testing.
