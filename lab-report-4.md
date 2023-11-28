@@ -14,16 +14,18 @@ Effect: This allowed the user to remotely log into the ieng6 machine at UCSD.
 ---
 
 * Clone your fork of the repository from your Github account (using the SSH URL)
-
- I type `ls` `<enter>` this command show me what are the files in and make sure
- I am at the correct current working directory
   ![image](cse15l_week1_report/ls_make_sure.png)
 
- Then I use `cd` to change my working directory to cse15L-lab-7
- Then I type `git clone` after finish downloading, then 
- I typ `ls` to make sure that I am in the correct working directory
+  I type `ls` `<enter>` this command show me what are the files in and make sure
+  I am at the correct current working directory
+
+
   ![image](cse15l_week1_report/gitclone.png)
   ![image](cse15l_week1_report/gitclonesucc.png)
+  Then I use `cd` to change my working directory to cse15L-lab-7
+  Then I type `git clone` after finish downloading, then 
+  I typ `ls` to make sure that I am in the correct working directory
+
   Effect: This changed the working directory to cse15L-lab-7 and  cloned the specified repository 
   into the current directory.
 
@@ -36,15 +38,17 @@ Effect: This allowed the user to remotely log into the ieng6 machine at UCSD.
 
 ---
 * Edit the code file to fix the failing test
-  I type `vim ListExamples.java` to access the vim mode 
-  then I type `?index1` to locate the code where I want to fix
-  then I press `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>`
-  type `s/index1/index2` to fix the code.Then I type `:wq`to save my change.
-   ![image](cse15l_week1_report/vimmode.png)
-   ![image](cse15l_week1_report/indexsearch.png)
-   ![image](cse15l_week1_report/sindesx.png)
+  ![image](cse15l_week1_report/vimmode.png)
+   I type `vim ListExamples.java` to access the vim mode 
 
-   Effect: Opened the file ListExamples.java in vim editor, navigated to a specific code section, replaced
+  ![image](cse15l_week1_report/indexsearch.png)
+    then I type `?index1` to locate the code where I want to fix
+
+  ![image](cse15l_week1_report/sindesx.png)
+    then I press `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>` `<down>`
+    type `s/index1/index2` to fix the code.Then I type `:wq`to save my change.
+
+  Effect: Opened the file ListExamples.java in vim editor, navigated to a specific code section, replaced
   index1 with index2, and saved the changes to fix the failing test.
 
   ---
