@@ -1,7 +1,7 @@
 ## Lab Report 5
 ---
 
-**Part 1**
+**Part 1– Debugging Scenario**
 
 1.The original post from a student with a screenshot showing a symptom and a description of a guess at 
 the bug/some sense of what the failure-inducing input is.
@@ -183,4 +183,16 @@ above image show that I have fix the bug.
 above image show that I have also pass the test.
 
 ---
-**Part 2**
+**Part 2 - Reflection** 
+* Vim command
+
+I've learned the Vim keybindings and commands for my code editor.Vim enables rapid editing tasks without relying on a mouse,
+which streamlines my workflow.Additionally, its suitability for remote or SSH environments, where graphical editors might
+not be practical, is a significant advantage.Furthermore, mastering Vim has deepened my understanding of text editing and
+command-line interfaces, and this skills are crucial in many IT and development roles."
+
+* java debugger(JDB)
+
+I've learned that gdb is very helpful for remote debugging, a critical feature when diagnosing issues in distributed
+applications or server-based scenarios. Additionally, its ability to set breakpoints and watchpoints simplifies the
+process of tracking code flow and examining stack traces, making it easier to pinpoint and resolve issues.
