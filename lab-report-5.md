@@ -15,6 +15,7 @@ However, the method doesn't seem to be working correctly. it does not getting th
 ```
 
 * Here is my reverseInplacae method
+
 ```
 public class ArrayExamples {
 
@@ -28,6 +29,7 @@ public class ArrayExamples {
 ```
 
 * Here is my test files
+
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -46,7 +48,9 @@ public class ArrayTests {
 ![image](cse15l_week1_report/1.symptom.png)
 
 ---
+
 2.A response from a TA asking a leading question or suggesting a command to try 
+
 ```
 Hi,
 
@@ -57,6 +61,7 @@ the reversal process.
 ```
 
 ---
+
 3.Another screenshot/terminal output showing what information the student got from trying that, 
 and a clear description of what the bug is.
 
@@ -87,6 +92,7 @@ public class ArrayExamples {
 
 }
 ```
+
 Student: I create the main function inside my ArrayExamples.java and then use the java 
 debugger to run the function to see what is the actual output.
 
@@ -96,8 +102,11 @@ Here is my output when I use the jdb. Based on the output I have,
 I think that my logic is that the array does not swap correctly.
 
 ---
+
 4.At the end, all the information needed about the setup including:
+
 * The file & directory structure needed
+
 ```
 public class ArrayExamples {
 
@@ -108,6 +117,7 @@ public class ArrayExamples {
     }
   }
 ```
+
 the above code is my buggy files
 
 ```
@@ -123,6 +133,7 @@ public class ArrayTests {
 	}
 }
 ```
+
 the above code my test files
 
 ```
@@ -130,7 +141,6 @@ set -e
 echo "Compiling Java files..."
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 
-# Check if compilation was successful
 if [ $? -eq 0 ]; then
     echo "Compilation successful. Running tests..."
     # Running the JUnit tests
@@ -140,9 +150,9 @@ else
 fi
 ```
 the above code is my test.sh
-
   
 * The contents of each file before fixing the bug
+
 ```
 public class ArrayExamples {
 
@@ -156,6 +166,7 @@ public class ArrayExamples {
 the above code is my buggy files
 
 * The full command line (or lines) you ran to trigger the bug
+
 ![image](cse15l_week1_report/3.jdb.png)
 
 * A description of what to edit to fix the bug
@@ -172,8 +183,10 @@ the above code is my buggy files
     }
   }
 ```
+
 Student:I modify the loop in reverseInPlace(int[] arr) to correctly swap 
 elements without affecting the same element twice.
+
 ![image](cse15l_week1_report/4.LAST.png)
 
 above image show that I have fix the bug.
@@ -183,6 +196,7 @@ above image show that I have fix the bug.
 above image show that I have also pass the test.
 
 ---
+
 **Part 2 - Reflection** 
 * Vim command
 
