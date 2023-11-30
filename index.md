@@ -8,3 +8,5 @@
 [lab3 report](https://chaowen123.github.io/cse15L-lab-report-FA23/lab_report3.html)
 
 [lab4 report](https://chaowen123.github.io/cse15L-lab-report-FA23/lab-report-4.html)
+
+[lab5 report](https://chaowen123.github.io/cse15L-lab-report-FA23/lab-report-5.html)
