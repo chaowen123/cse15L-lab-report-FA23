@@ -3,15 +3,17 @@
 
 **Part 1– Debugging Scenario**
 
-1.The original post from a student with a screenshot showing a symptom and a description of a guess at 
-the bug/some sense of what the failure-inducing input is.
+1.The original post from a student with a screenshot showing a symptom and a 
+description of a guess at the bug/some sense of what the failure-inducing input is.
 ```
 Title: Trouble with Array Reversal Function in Java
 
 Hello,
 
 I'm trying to reverse an array in place using the `reverseInPlace(int[] arr)` method.
-However, the method doesn't seem to be working correctly. it does not getting the test pass.
+However, the method doesn't seem to be working correctly. it does not getting the
+test pass.the symptom showing the expected array element is not match the correct
+oreder, so I think would it be the case is the for loop logic wrong?
 ```
 
 * Here is my reverseInplacae method
@@ -55,15 +57,15 @@ public class ArrayTests {
 Hi,
 
 It looks like there could be an issue with your loop logic in reverseInPlace(int[] arr).
-Can you add debug prints inside the loop to show the value of arr[i] and arr[arr.length - i - 1]
-before and after the swap at each iteration? This should help us see what's happening during each step of
-the reversal process.
+Can you add debug prints inside the loop to show the value of arr[i] and
+arr[arr.length - i - 1]before and after the swap at each iteration? This should help us
+see what's happening during each step of the reversal process.
 ```
 
 ---
 
-3.Another screenshot/terminal output showing what information the student got from trying that, 
-and a clear description of what the bug is.
+3.Another screenshot/terminal output showing what information the student got from 
+trying that, and a clear description of what the bug is.
 
 ```
 public class ArrayExamples {
@@ -217,13 +219,15 @@ above image show that I have also pass the test.
 **Part 2 - Reflection** 
 * Vim command
 
-I've learned the Vim keybindings and commands for my code editor.Vim enables rapid editing tasks without relying on a mouse,
-which streamlines my workflow.Additionally, its suitability for remote or SSH environments, where graphical editors might
-not be practical, is a significant advantage.Furthermore, mastering Vim has deepened my understanding of text editing and
+I've learned the Vim keybindings and commands for my code editor.Vim enables rapid editing tasks
+without relying on a mouse,which streamlines my workflow.Additionally, its suitability for 
+remote or SSH environments, where graphical editors mightnot be practical, is a significant 
+advantage.Furthermore, mastering Vim has deepened my understanding of text editing and
 command-line interfaces, and this skills are crucial in many IT and development roles."
 
 * java debugger(JDB)
 
-I've learned that gdb is very helpful for remote debugging, a critical feature when diagnosing issues in distributed
-applications or server-based scenarios. Additionally, its ability to set breakpoints and watchpoints simplifies the
-process of tracking code flow and examining stack traces, making it easier to pinpoint and resolve issues.
+I've learned that gdb is very helpful for remote debugging, a critical feature when diagnosing 
+issues in distributed applications or server-based scenarios. Additionally, its ability to 
+set breakpoints and watchpoints simplifies the process of tracking code flow and examining 
+stack traces, making it easier to pinpoint and resolve issues.
