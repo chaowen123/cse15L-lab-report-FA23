@@ -165,9 +165,26 @@ public class ArrayExamples {
 ```
 the above code is my buggy files
 
+```
+-lab3
+   -lib/
+     -hamcrest-core-1.3.jar
+     -junit-4.13.2.jar
+   -ArrayExamples.java
+   -ArrayTests.java
+   -test.sh
+```
+the above show my directory structure
+
 * The full command line (or lines) you ran to trigger the bug
 
+![image](cse15l_week1_report/1.symptom.png)
+the above image show that I use the ArrayTests.java to test my method, and showing
+the element[3] was expected<2> but the actual output is <4>
+
 ![image](cse15l_week1_report/3.jdb.png)
+the above image show my array is not in the right order after 
+the reverseInPlace method
 
 * A description of what to edit to fix the bug
 ```
