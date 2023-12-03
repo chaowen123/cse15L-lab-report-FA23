@@ -67,40 +67,11 @@ see what's happening during each step of the reversal process.
 3.Another screenshot/terminal output showing what information the student got from 
 trying that, and a clear description of what the bug is.
 
-```
-public class ArrayExamples {
-
-  // Changes the input array to be in reversed order
-  static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
- public static void main(String[] args) {
-    int[] arr = {1, 2, 3, 4, 5}; // Example array
-
-    System.out.println("Original array:");
-    for(int value : arr) {
-        System.out.print(value + " ");
-    }
-
-    reverseInPlace(arr); // Reversing the array
-
-    System.out.println("\nReversed array:");
-    for(int value : arr) {
-        System.out.print(value + " ");
-    }
-}
-
-}
-```
+![image](cse15l_week1_report/3.jdb.png)
 
 Student: I create the main function inside my ArrayExamples.java and then use the java 
 debugger to run the function to see what is the actual output.
-
-![image](cse15l_week1_report/3.jdb.png)
-
-Here is my output when I use the jdb. Based on the output I have, 
+The above image is my output when I use the jdb. Based on the output I have, 
 I think that my logic is that the array does not swap correctly.
 
 ---
